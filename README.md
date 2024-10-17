@@ -1,2 +1,2 @@
-# speachTimer
+# speechTimer
 Speech Pathology tool
