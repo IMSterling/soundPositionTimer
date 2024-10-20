@@ -1,25 +1,31 @@
 # Sound Position Timer
+Graphic clock timer to measure the duration of sound positions within syllables. Measure sounds for 2 second, 1 second, 
+and half second syllable durations. Frequently used by speech language pathologists to treat patients with a stutter. 
+The hand rotates at a default 4 seconds per rotation but can be speed up or slowed down as needed. 
 
-## Usage
-* Use this tool to measure the duration of sound positions within syllables. Measure sounds for 2 second, 1 second, and half second syllable durations. Tools of this variety are frequently used in speech Pathology for patients with a stutter. 
+  <p align="center">
+  <img width="400" height="400" src="preview.png">
+  </p>
 
 ## Setup 
-* Download [Golang](https://go.dev)
-* Clone this repository
+ Download a [Golang](https://go.dev) version >= 1.23.2. Upon successful download verify versioning with
 ```bash
-$ git clone https://github.com/IMSterling/speechTimer.git
+$ go version
 ```
-* Build the main file
+Clone this repository
 ```bash
-$ go build -o speechTimer main.go
+$ git clone https://github.com/IMSterling/soundPositionTimer.git
 ```
-* Run the built file
+Build an executable
 ```bash
-$ ./speechTimer
+$ go build -o soundPositionTimer main.go
+```
+Run the built file
+```bash
+$ ./soundPositionTimer
 ``` 
 
-Optional
-* Add the directory to your system's PATH so you can run the executable from anywhere
+[Optional] Add the executable to your system's PATH so you can run the executable from anywhere
 
 ## Implementation details
 
